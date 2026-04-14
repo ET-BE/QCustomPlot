@@ -3,5 +3,6 @@
 .vscode/
 
 # Build
-build/
+[Bb]uild/
+[Bb]in/
 cmake-build*/
