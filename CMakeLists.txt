@@ -1,12 +1,12 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.30)
 
-project(qcustomplot VERSION 1.3.1)
+project(qcustomplot VERSION 2.1.1)
 
 include(GNUInstallDirs)
 include(CMakePackageConfigHelpers)
 
 # Find Qt packages
-find_package(Qt5 COMPONENTS Core Widgets PrintSupport REQUIRED)
+find_package(Qt6 COMPONENTS Core Widgets PrintSupport REQUIRED)
 
 # Qt settings
 set(CMAKE_AUTOUIC ON)
